@@ -1,0 +1,28 @@
+body{
+  background-color:blue;
+}
+
+.container{
+  display:grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(6,1fr);
+  height:400px;
+  width:100%;
+  background-color:aqua;
+  border:1px solid red;
+
+}
+
+.row1,.row2,.row3,.row4{
+  border:9px dotted blue;
+}
+
+.row1{
+  grid-column-start:5;
+  grid-column-end:7;
+  grid-column-start:4;
+  grid-column-end:5;
+  background-color:brown;
+  
+
+}
